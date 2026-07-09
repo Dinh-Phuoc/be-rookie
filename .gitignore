@@ -1,0 +1,25 @@
+# dependencies
+/node_modules
+
+# build
+/dist
+
+# env — chi commit .env.example
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# logs
+logs
+*.log
+
+# OS
+.DS_Store
+
+# IDE
+.idea
+.vscode
+
+# test
+/coverage
